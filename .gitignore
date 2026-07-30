@@ -1,0 +1,14 @@
+node_modules/
+**/node_modules/
+dist/
+build/
+**/dist/
+**/build/
+*.tsbuildinfo
+gamemode.js
+server-settings.json
+.env
+*.log
+.vscode/
+.DS_Store
+Thumbs.db

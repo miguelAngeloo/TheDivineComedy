@@ -1,0 +1,14 @@
+{
+  "name": "my-gamemode",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gamemode for SkyMP server",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "typescript": "^5.4.5"
+  }
+}
