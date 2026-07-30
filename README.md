@@ -1,7 +1,7 @@
 # The Divine Comedy
 
 Skyrim RP project built on top of SkyMP multiplayer mod, with custom
-gamemode and client. The Theme was inspired by Dante's Inferno book.
+gamemode and client. The Theme was inspired by Dante's Alighier book.
 
 ---
 
