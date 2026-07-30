@@ -1,0 +1,22 @@
+========================================================================
+NOTICE: Skyrim.ccc was intentionally EMPTIED
+========================================================================
+
+Project: The Divine Comedy
+
+WHY:
+Skyrim AE automatically loads the Creation Club content listed in this file
+(~10 .esm + several .esl). Those plugins occupied indices 05 to 0E and
+misaligned the plugin indices between client and server, causing the error
+"FromFormId failed due to invalid file index" and breaking mod doors and
+world rules.
+
+Emptying this file stops that loading and keeps the plugin list short and
+aligned on both sides.
+
+WARNING: IF STEAM VERIFIES / REPAIRS THE GAME FILES, this file reverts to
+the original and the whole misalignment comes back. If that happens, empty
+it again (the original copy is in patches/Skyrim.ccc.original).
+
+Change date: 07/30/2026
+========================================================================
