@@ -1,7 +1,7 @@
-# The Divine Comedy — Docs
+# The Divine Comedy
 
-Simple reference for the project. Skyrim multiplayer (SkyMP) RP server, custom
-gamemode + client in TypeScript.
+Skyrim RP project built on top of SkyMP multiplayer mod, with custom
+gamemode and client. The Theme was inspired by Dante's Inferno book.
 
 ---
 
@@ -18,7 +18,7 @@ gamemode + client in TypeScript.
 ```
 TheDivineComedy/
 ├── gamemode/        server code (builds into SkyMP via build.mjs)
-├── client/src/      my client files
+├── client/src/      client files
 ├── recipes/         TheDivineComedy_Recipes.esp
 ├── patches/         changes to SkyMP source (see below)
 ├── docs/            guides and info about the development
@@ -31,7 +31,7 @@ TheDivineComedy/
 
 ---
 
-## Environment changes (easy to lose — see `patches/`)
+## Environment changes (see `patches/`)
 
 - **`Skyrim.ccc` emptied** — stops the game loading Creation Club content, which
   was misaligning client/server plugin indices. Reverts if Steam verifies game
